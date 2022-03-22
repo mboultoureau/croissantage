@@ -1,3 +1,21 @@
-{% extends "base.html.twig" %}
-{% block body %}
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include("parts/head.html.twig") %}
+		<title>{% block title %}Croissantage{% endblock %}</title>
+	</head>
+	<body>
+		{% block body %}
+		<div
+			class="container-scroller">
+			{% include("parts/header.html.twig") %}
+			<div
+				class="container-fluid page-body-wrapper">
+				{% include("parts/sidebar.html.twig") %}
+				{% block main %}{% endblock %}
+				{% include("parts/footer.html.twig") %}
+			</div>
+		</div>
+		{% endblock %}
+	</body>
+</html></div>{% include("parts/foot.html.twig") %}</body></html>
