@@ -11,6 +11,7 @@ use Slim\Interfaces\RouteCollectorProxyInterface as Group;
 use Slim\Views\Twig;
 use App\Controller\HomeController;
 use App\Controller\LoginController;
+use App\Controller\StudentController;
 
 return function (App $app) {
     $app->options('/{routes:.*}', function (Request $request, Response $response) {
@@ -21,4 +22,5 @@ return function (App $app) {
 
     $app->get('/', HomeController::class . ':index');
     $app->get('/login', LoginController::class . ':index');
+    $app->get('/students', StudentController::class . ':index');
 };
