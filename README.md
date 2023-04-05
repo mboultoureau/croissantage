@@ -1,6 +1,6 @@
 # TP Croissantage
 
-Créé par Mathis Boultoureau et Ronan Renoux
+Créé par [Mathis Boultoureau](https://github.com/mboultoureau) et [Ronan Renoux](https://github.com/ronanren)
 
 ## Avancement
 
