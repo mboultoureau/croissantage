@@ -1,11 +1,11 @@
 # TP Croissantage
 
-Créé par [Mathis Boultoureau](https://github.com/mboultoureau) et [Ronan Renoux](https://github.com/ronanren)
+Créé par [Mathis Boultoureau](https://github.com/mboultoureau) et [Ronan Renoux](https://github.com/ronanren) réalisé dans le cadre du cours Technologie Web à l'[ENSSAT](https://www.enssat.fr/).
 
 ## Avancement
 
 - Installation de Slim 4
-- Refaire l'arborescence à notre sauce (Controller / Entity / Repository / Templates)
+- Réalisation d'une architecture personnalisée (Controller / Entity / Repository / Templates)
 - Mise en place d'un template
 - Installation de Twig et création de templates (découpage des différentes parties de la page)
 - Création d'une Entité Student
